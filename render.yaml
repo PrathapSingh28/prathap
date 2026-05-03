@@ -1,6 +1,6 @@
 services:
-  - type: static
+  - type: web
     name: neuropredict
-    env: static
+    runtime: static
     buildCommand: ""
-    publishPath: "."
+    staticPublishPath: "."
